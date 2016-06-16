@@ -1,0 +1,10 @@
+.tmp
+.librarian
+.vagrant
+puppet/modules/*
+Gemfile.lock
+terrform/terraform.tfstate
+terrform/terraform.tfstate.backup
+.ruby-gemset
+.ruby-version
+

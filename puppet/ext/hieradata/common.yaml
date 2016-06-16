@@ -1,0 +1,7 @@
+---
+classes:
+  - ubuntu_pkgs
+  - stdlib
+
+ubuntu_pkgs:
+  - unzip

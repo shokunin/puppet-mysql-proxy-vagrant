@@ -1,0 +1,27 @@
+mod 'vagrant',
+  :git => 'https://github.com/shokunin/vagrant.git',
+  :ref => 'master'
+
+mod 'unix_base',
+  :git => 'https://github.com/shokunin/unix_base.git',
+  :ref => 'master'
+
+mod 'stdlib',
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :ref => 'master'
+
+mod 'ubuntu_pkgs',
+  :git => 'https://github.com/shokunin/ubuntu_pkgs.git'
+
+mod 'apt',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+  :tag => '1.8.0'
+
+mod 'staging',
+  :git => 'https://github.com/voxpupuli/puppet-staging.git'
+
+mod 'mysql',
+  :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git'
+
+mod 'mysqlproxy',
+  :git => 'https://github.com/shokunin/puppet-mysqlproxy.git'
