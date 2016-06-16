@@ -20,3 +20,15 @@ bundle install
 ```
 cd puppet && r10k puppetfile install
 ```
+
+6) start vagrant
+
+```
+vagrant up
+```
+
+7) connect via mysql
+
+```
+mysql -u myuser -pmypass -h 127.0.0.1 --port 3307
+```
